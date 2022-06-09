@@ -1,0 +1,187 @@
+@media (min-width : 460px) and (max-width : 768px) {
+    body {
+        font-size: 18px;
+    }
+
+
+    .home-page .container .image {
+        width: 100%;
+        height: 60%;
+        background: url(home.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-top: 3em;
+    }
+
+    .secend-page {
+        height: 60vh;
+  
+     
+    }
+
+    .secend-page .container .image {
+        width: 60%;
+        height: 15em;
+       
+    }
+
+    .service-page {
+        height: 80vh;
+
+    }
+
+    .service-page .container .all-box .box {
+        width: 15em;
+        height: 10em;
+        text-align: center;
+
+    }
+    .footer .contact .links .socia-1{
+        flex-flow: row wrap;
+    }
+}
+
+
+
+
+
+@media (min-width : 769px) and (max-width : 1279px) {
+    body {
+        font-size: 22px;
+    }
+
+
+    .home-page .container .image {
+        width: 90%;
+        height: 80%;
+        background: url(home.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-top: 3em;
+    }
+
+    .secend-page {
+        height: 60vh;
+
+  
+     
+    }
+
+    .secend-page .container .image {
+        width: 40%;
+        height: 60%;
+     
+       
+    }
+
+    .service-page {
+        height: 80vh;
+
+    }
+    .footer{
+        height: 25em;
+        
+     
+    }
+    .service-page .container .all-box .box {
+        width: 15em;
+        height: 10em;
+        text-align: center;
+        margin: 1em;
+
+    }
+    .footer .contact .links .socia-1{
+        flex-flow: row wrap;
+        height: 60%;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width : 1280px) {
+    body {
+        font-size: 24px;
+    }
+header   {
+font-size: 0.9em;
+
+
+}
+
+    .home-page .container{
+        flex-flow: row wrap;
+        
+  
+    }
+
+    .home-page .container .info{
+        width: 40%;
+    }
+    .home-page .container .image {
+        width: 50%;
+        height: 100%;
+        background: url(home.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-top: 3em;
+    }
+
+    .secend-page {
+        height: 100vh;
+    }
+    .secend-page .container {
+        flex-direction: row;
+      
+    }
+    .secend-page .container .title{
+        width: 40%;
+    }
+    .secend-page .container .image {
+        width: 40%;
+        height: 90%;
+        margin-left: -10em;
+     
+       
+    }
+
+    .service-page {
+        height: 100vh;
+    
+    }
+
+    .project-page .container .cards .card{
+        width:40%;
+        height: 20em;
+        margin: 1em;
+    }
+
+    .end-project{
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2em;
+    }
+    .footer{
+        height: 25em;
+        
+     
+    }
+    .service-page .container .all-box .box {
+        width: 15em;
+        height: 10em;
+        text-align: center;
+        margin: 1em;
+
+    }
+    .footer .contact .links .socia-1{
+        flex-flow: row wrap;
+        height: 60%;
+    }
+
+
+}
